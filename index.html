@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cookin' With Coolio</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+		<!--My Client Wants
+				Hey,
+				I hope you're doing well. Just heard from the client. They're willing to pay us $125/hr to build a site with the following requirements.
+				* A large, purple header.
+				* A 4 column layout with some of their product features.
+				* A short navbar which is always collapsed and slides down to reveal four items
+				* Lots of Bootstrap panels
+				* A footer with a beautiful image, mostly using green.
+				Is that cool? Let me know ASAP. Thanks!
+		-->
+		<div class="container">
+			<div class="jumbotron">
+				<h1 class="main"><a href="index.html" class="page-header">Cookin' With Coolio</a></h1>
+			</div>
+		</div>
+			
+				<h4 class="main-video-link"><a href="https://www.youtube.com/user/CookinWithCoolio/videos">Watch My Damn Channel</a></h4>
+
+	<nav class="navbar navbar-inverse">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span> 
+	      </button>
+	      <!--<a class="navbar-brand" href="#">Cookin' With Coolio</a>-->
+	    </div>
+	    <div class="collapse navbar-collapse" id="myNavbar">
+	      <ul class="nav navbar-nav">
+	        <li class="active"><a href="index.html">Home</a></li>
+	        <li><a href="recipes.html">Recipes</a></li>
+	        <li><a href="videos.html">Videos</a></li> 
+	        <li><a href="tips.html">Kitchen Pimpin'</a></li> 
+	      </ul>
+	      <!--<ul class="nav navbar-nav navbar-right">
+	        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+	        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+	      </ul>-->
+	    </div>
+	  </div>
+	</nav>
+
+	<!--Navbar code modified from example on http://www.w3schools.com/bootstrap/bootstrap_navbar.asp-->
+
+	<!--<nav>
+		<ul class= "nav nav-pills">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="recipes.html">Recipes</a></li>
+			<li><a href="videos.html">Videos</a></li>
+			<li><a href="tips.html">Kitchen Pimpin'</a></li>
+
+		</ul>-->
+
+		<div class="search-bar-container">
+			<!--<div class="row">
+				<div class="col-sm-3">-->
+					<form>
+						<input type="text" name="Search">
+						<input type="submit" name="Search">
+					</form>					
+		</div>
+
+	
+	<div class="panel panel-default">
+		<div class="panel-body">Top Recipes</div>
+	</div>
+
+	<!--<div class="page-header">
+		<h2>Top Recipes</h2>
+	</div>-->
+
+	<div class="top-5-recipe-container">
+		<!--<div class="top-5-recipe-element">-->
+			<div class="row">
+					<div class="col-lg-3">
+						<p class="lead-1">Finger-Lickin', Rib-Stickin, Fall-Off-the-Bone-and-into-Your-Mouth Chicken</p>
+						<p>Cook the best damn chicken you'll ever eat in only 45 minutes.</p>
+					</div>
+					<div class="col-lg-3">
+						<a href="recipes.html">
+							<img src="fingerlickinchicken.jpg"  class="top-5-pic" alt="chicken">
+						</a>
+					</div>
+					<div class="col-lg-3">
+						<a href="recipes.html">
+							<img src="steakfatricia.jpg" class="top-5-pic"  alt="steak">
+						</a>
+							
+							<p class="lead">Steak Fatricia</p>	
+					</div>
+			<div class="row">
+					<div class="col-lg-3">
+						<a href="recipes.html">
+						<img src="soulrolls.jpg" class="top-5-pic"  alt="soulrolls">
+						</a>
+							
+							<p class="lead">Soul Rolls</p>
+					</div>
+					<div class="col-sm-3">
+						<a href="recipes.html">
+							<img src="tilapia.jpg" class="top-5-pic" alt="tilapia">
+						</a>
+							
+							<p class="lead">Tricked-Out Westside Tilapia</p>
+					</div>
+					<div class="col-sm-3">
+						<a href="recipes.html">
+							<img src="ghettalianbread.jpg" class="top-5-pic" alt="garlic bread">
+						</a>
+							
+							<p class="lead">Heavenly Ghettalian Garlic Bread</p>
+					</div> 
+					<div class="col-sm-3">
+						<a href="recipes.html">
+							<img src="chickenlettuceblunts.jpg" class="top-5-pic" alt="chicken">
+						</a>
+							
+							<p class="lead">Chicken Lettuce Blunts</p>
+					</div> 
+					<div class="col-sm-3">
+						<a href="recipes.html">
+							<img src="hotfruitsandwich.jpg" class="top-5-pic" alt="fruit sandwich">
+						</a>
+							
+							<p class="lead">Hot Fruit Sandwich</p>
+					</div> 
+			</div>
+	</div>
+
+	<div class="panel panel-default">
+		<div class="panel-body">How to Become a Kitchen Pimp</div>
+	</div>
+
+	<!--<div class="page-header">
+		<h2>How to Become a Kitchen Pimp</h2>
+	</div>-->
+
+	<div class="kitchen-pimp-container">
+			<div class="row">
+				<div class="col-lg-4">
+					<a href="tips.html">Stockin' the Pimptry</a>
+				</div>
+				<div class="col-lg-2">
+					<a href="tips.html">Weaponry</a>
+				</div>
+				<div class="col-lg-2">
+					<a href="tips.html">Terminology</a>
+				</div>
+				<div class="col-lg-4">
+					<a href="coolmandments.html">The 10 Cool-Mandments</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="coolio-cookbook-container">
+		<div class="row">
+			<div class="col-lg-12">
+				<img src="Cookin_With_Coolio_Book.jpg" class="img-thumbnail" alt="Coolios Cookbook">
+				
+				<figure>
+					<figcaption>Get your copy of <a href="https://www.amazon.com/Cookin-Coolio-Star-Meals-Price/dp/1439117616"> Cookin' With Coolio</a> today</figcaption>
+					<button type="button" class="btn btn-success">Buy Now</button>
+				</figure>
+			</div>
+		</div>
+	</div>
+	
+	<!--<div class="panel panel-default">
+		<div class="panel-body">The Original Kitchen Pimp</div>
+	</div>-->
+
+	<div class="page-header">
+		<h1>The Original Kitchen Pimp</h1>
+	</div>
+
+	<div class="about-coolio-container">
+		<div class="row">
+			<div class="jumbotron">
+				<div>
+							<img src="coolio.jpeg" class="img-rounded" alt="Picture of Coolio">
+
+							<video autoplay loop><source src="01FantasticVoyage.m4a"></video>
+							<!--<p></p>
+							<p></p>
+							<p></p>-->
+
+							<p class="lead">I can take a cow out of Compton and make it taste better than Kobe beef at your favorite steakhouse. There's only one thing I've been doing longer than rapping: cooking. People don't know this about Coolio. I was making thirty-minute meals when I was ten year old and I haven't ever looked back. I'm the ghetto Martha Stewart, the black Rachel Ray. I am the kitchen pimp who won't hesitate to fillet Bobby Flay or send my posse after Emeril Lagasse.</p>
+
+							<p class="lead">My specialty is making something out of nothing. That's a direct result of growing up poor as a motherfucker. Poor kids gotta figure stuff out. What's in the refrigerator? What do we got? Canned tuna, bread, hot sauce, and one clean plate in the cabinet? That may sound like a culinary catastrophe to you. But to me, growing up how I grew up, I learned how to turn that into a masterpiece.</p>
+
+							<p class="lead">That's part of why I wanted to write <a href="https://www.amazon.com/Cookin-Coolio-Star-Meals-Price/dp/1439117616">this book</a>. I want people to know that just because you're poor, you don't have to eat fast food everyday. People always try to tell you that you have to have money to eat well. Whole Foods and Gelson's have a lot of great stuff, but Ralph's, Von's, Safeway, and Winco have everything you need to make haute cuisine at home. Hell, when I was growing up, I could make a meal out of a package of Top Ramen and a bottle of Windex. All you need is a little bit of food and a little bit of know-how.  
+							</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="page-footer">
+		<div class="container-footer">
+			<img src="coolio_headshot.jpeg" alt="Coolio">
+		</div>
+	</div>
+
+</body>
+</html>
